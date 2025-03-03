@@ -64,5 +64,4 @@ public class ItemController {
     public List<Item> getItemsByRatingGreaterThan(@PathVariable Double minRating) {
         return repository.findByRateGreaterThan(minRating);
     }
-    //Vale, ahora dame el código de ItemRepository
 }
